@@ -1,0 +1,5 @@
+edit BUILD file, replace template with a proj name
+
+bazel init
+bazel run //:gazelle
+bazel run //:your-name

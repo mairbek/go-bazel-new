@@ -1,0 +1,4 @@
+bazel-bin
+bazel-out
+gazelle_build.XXXX.json
+bazel-genfiles
