@@ -2,3 +2,5 @@ bazel-bin
 bazel-out
 gazelle_build.XXXX.json
 bazel-genfiles
+bazel-go-bazel-new
+bazel-testlogs
