@@ -19,14 +19,12 @@ go_binary(
     visibility = ["//visibility:public"],
 )
 
-
 load("@io_bazel_rules_go//go:def.bzl", "go_path", "nogo")
 
 go_path(
     name = "gopath",
     mode = "link",
     deps = [
-      ":go_default_library",
-      ],
+        ":go_default_library",
+    ],
 )
-
